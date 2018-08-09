@@ -17,7 +17,11 @@ class LoginActivity : AppCompatActivity(){
         //btn_sign_in.setOnClickListener(this)
     }
 
+<<<<<<< HEAD
 //    override fun onClick(view: View?) {
+=======
+    override fun onClick(view: View?) {
+>>>>>>> master
 //        if (view != null) {
 //            when (view.id) {
 //                R.id.btn_sign_in -> {
@@ -25,5 +29,9 @@ class LoginActivity : AppCompatActivity(){
 //                }
 //            }
 //        }
+<<<<<<< HEAD
    // }
+=======
+    }
+>>>>>>> master
 }
