@@ -17,6 +17,11 @@
             android:layout_height="wrap_content"
             android:text="@string/username" />
 
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
+
         <Button
             android:id="@+id/btn_sign_in"
             android:layout_width="match_parent"
