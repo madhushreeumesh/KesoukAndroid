@@ -19,8 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.base.BaseActivity"></activity>
-        <activity android:name=".ui.login.LoginActivity"></activity>
+        <activity android:name=".ui.base.BaseActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.login_register.LoginRegisterActivity" />
+        <activity android:name=".ui.register.RegisterActivity"
+            android:theme="@style/RegisterActivityTheme"/>
+        <activity android:name=".ui.addaddress.AddAddressActivity"/>
     </application>
 
 </manifest>
