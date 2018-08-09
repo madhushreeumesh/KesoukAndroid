@@ -22,15 +22,6 @@ class RegisterActivity : AppCompatActivity(),View.OnClickListener {
                 var intentLogin = Intent(applicationContext, AddAddressActivity::class.java)
                 startActivity(intentLogin)
             }
-//            R.id.btn_register->{
-//                var intentReg = Intent(applicationContext,RegisterActivity::class.java)
-//                startActivity(intentReg)
-//            }
-//            R.id.tv_skip->{
-//                var intentSkip = Intent(applicationContext,BaseActivity::class.java)
-//                startActivity(intentSkip)
-//
-//            }
         }
     }
 }

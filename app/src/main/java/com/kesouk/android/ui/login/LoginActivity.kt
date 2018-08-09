@@ -8,7 +8,7 @@ import com.kesouk.android.R
 import com.kesouk.android.ui.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
-class LoginActivity : AppCompatActivity(){
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,21 +17,4 @@ class LoginActivity : AppCompatActivity(){
         //btn_sign_in.setOnClickListener(this)
     }
 
-<<<<<<< HEAD
-//    override fun onClick(view: View?) {
-=======
-    override fun onClick(view: View?) {
->>>>>>> master
-//        if (view != null) {
-//            when (view.id) {
-//                R.id.btn_sign_in -> {
-//                    startActivity(Intent(this, BaseActivity::class.java))
-//                }
-//            }
-//        }
-<<<<<<< HEAD
-   // }
-=======
-    }
->>>>>>> master
 }
