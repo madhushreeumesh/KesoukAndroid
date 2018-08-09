@@ -396,7 +396,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:background="@color/dark_green"
+                    android:background="@drawable/round_button_brown"
                     android:text="@string/save"
                     android:textColor="@color/white"
                     android:textSize="@dimen/dimens_20sp"/>
