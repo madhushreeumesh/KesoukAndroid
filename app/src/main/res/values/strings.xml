@@ -8,9 +8,19 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="username">User Name</string>
-    <string name="password">Password\'</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="sign_up">Sign Up</string>
+    <string name="kenya_s_premium_online_supermarket">Kenya\'s Premium Online Supermarket</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="skip">
+         <u>Skip</u>
+    </string>
+    <string name="login_with">Login With</string>
+    <string name="email_addr">E-Mail Address</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_passwd">Forget Password?</string>
+    <string name="first_time_shopping">First Time Shopping  With Us?</string>
 
 </resources>
