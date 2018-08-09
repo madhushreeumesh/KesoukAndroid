@@ -24,10 +24,17 @@
             android:text="@string/password" />
 
         <Button
-            android:id="@+id/btn_sign_in"
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in" />
+
+
+        <Button
+            android:id="@+id/btn_sign_up"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sign_in" />
+            android:text="@string/sign_up" />
 
         <Button
             android:id="@+id/btn_forgot_password"
