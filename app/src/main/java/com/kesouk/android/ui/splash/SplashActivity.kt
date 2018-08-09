@@ -7,6 +7,7 @@ import android.os.Handler
 import com.kesouk.android.R
 import com.kesouk.android.ui.base.BaseActivity
 import com.kesouk.android.ui.login.LoginActivity
+import com.kesouk.android.ui.register.RegisterActivity
 
 class SplashActivity : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
@@ -15,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
 
-            val intent = Intent(applicationContext, LoginActivity::class.java)
+            val intent = Intent(applicationContext, RegisterActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -32,7 +33,7 @@ class SplashActivity : AppCompatActivity() {
         //  mDelayHandler!!.postDelayed(mRunnable, SPLASH_DELAY)
         mDelayHandler!!.postDelayed({
             if (1 == 1) {
-                val intent = Intent(applicationContext, LoginActivity::class.java)
+                val intent = Intent(applicationContext, RegisterActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {

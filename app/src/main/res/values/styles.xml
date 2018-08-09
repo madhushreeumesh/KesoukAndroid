@@ -10,6 +10,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="RegisterActivityTheme" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
     <style name="Theme.AppCompat.NoActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -148,6 +154,11 @@
         <item name="android:layout_marginLeft">@dimen/dimens_4</item>
         <item name="android:layout_marginRight">@dimen/dimens_4</item>
         <item name="android:textSize">@dimen/dimens_12sp</item>
+    </style>
+
+    <style name="loginTextInputLayout" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/app_bg</item>
+        <item name="android:textSize">@dimen/dimens_10sp</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

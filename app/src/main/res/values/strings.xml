@@ -9,8 +9,28 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="username">User Name</string>
-    <string name="password">Password\'</string>
+    <string name="password">Password</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobileno">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="addaddress">ADD ADDRESS</string>
+    <string name="signup">SIGN UP</string>
+    <string name="applink"><![CDATA[Terms & Conditions]]></string>
+    <string name="register">Register</string>
+    <string name="mob">Mobile Number</string>
+    <string name="nickname">Address Nickname eg.home/My...</string>
+    <string name="city">City</string>
+    <string name="house"><![CDATA[House No & Details]]></string>
+    <string name="resident">Residential Complex (Optional)</string>
+    <string name="area">Area</string>
+    <string name="street">Street Name (Optional)</string>
+    <string name="landmark">Landmarks (Optional)</string>
+    <string name="default_addr">Make this my default address</string>
+    <string name="save">SAVE</string>
+    <string name="add_new_address">Add New Address</string>
 
 </resources>
