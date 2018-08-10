@@ -39,4 +39,10 @@ class LoginRegisterActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    override fun onBackPressed() {
+
+        finishAffinity()
+    }
+
+
 }
