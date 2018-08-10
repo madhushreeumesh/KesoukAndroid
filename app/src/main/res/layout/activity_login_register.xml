@@ -65,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/logo1_layout"
         android:gravity="center"
+        android:layout_marginTop="@dimen/dimens_20"
         android:orientation="vertical">
 
         <Button

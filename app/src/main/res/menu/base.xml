@@ -5,5 +5,55 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:icon="@drawable/settings"
+        app:showAsAction="always">
+        <menu>
+
+    <item
+        android:id="@+id/my_acc"
+        android:title="@string/my_acc"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_accounts" />
+
+    <item
+        android:id="@+id/my_orders"
+        android:title="@string/my_orders"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_myorders"/>
+
+    <item
+        android:id="@+id/my_wallet"
+        android:title="@string/my_wallet"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_wallet" />
+    <item
+        android:id="@+id/faq"
+        android:title="@string/faq"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_faq" />
+
+    <item
+        android:id="@+id/contact"
+        android:title="@string/contact"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_contact_us" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_about_us" />
+    <item
+        android:id="@+id/terms"
+        android:title="@string/termscond"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_termsandconditions" />
+
+    <item
+        android:id="@+id/signin"
+        android:title="@string/signin"
+        app:showAsAction="never"
+        android:icon="@drawable/menu_logout"/>
+
+        </menu>
+    </item>
 </menu>

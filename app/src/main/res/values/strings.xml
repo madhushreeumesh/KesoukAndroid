@@ -42,5 +42,18 @@
     <string name="remember_me">Remember Me</string>
     <string name="forgot_passwd">Forget Password?</string>
     <string name="first_time_shopping">First Time Shopping  With Us?</string>
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favourites</string>
+    <string name="basket">Basket</string>
+    <string name="my_acc">My Account</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="faq">FAQs</string>
+    <string name="contact">Contact Us</string>
+    <string name="about">About Us</string>
+    <string name="termscond"><![CDATA[Terms & Conditions]]></string>
+    <string name="signin">Sign In</string>
 
 </resources>

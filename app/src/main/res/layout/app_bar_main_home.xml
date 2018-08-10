@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/logintoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_30"
+            android:hint="Search an Item ..."
+            android:drawableLeft="@drawable/search_bar1"
+            android:id="@+id/search_new"
+            android:drawablePadding="@dimen/dimens_5"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/dimens_8"
+            android:layout_marginBottom="@dimen/dimens_8"
+            android:textColorHint="@color/tab_line"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:layout_marginRight="@dimen/dimens_30"
+            android:paddingLeft="@dimen/dimens_5"
+            android:textSize="@dimen/dimens_12"
+            android:textColor="@color/tab_line"
+            android:background="@drawable/round_button"
+            />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimens_8"
+                android:layout_marginTop="@dimen/dimens_8"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Toolbar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_12"
+                android:textStyle="bold"
+                android:visibility="gone"
+
+                />
+
+    </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/rldContainer">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
