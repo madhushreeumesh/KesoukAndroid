@@ -42,5 +42,10 @@
     <string name="remember_me">Remember Me</string>
     <string name="forgot_passwd">Forget Password?</string>
     <string name="first_time_shopping">First Time Shopping  With Us?</string>
+    <string name="otp_text">Please enter OTP received</string>
+    <string name="otp">OTP</string>
+    <string name="verify">VERIFY</string>
+    <string name="resend_passwd">Resend OTP?</string>
+    <string name="ingredients">Ingredients</string>
 
 </resources>

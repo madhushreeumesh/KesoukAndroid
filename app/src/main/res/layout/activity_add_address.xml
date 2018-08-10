@@ -174,6 +174,7 @@
                     android:layout_height="@dimen/dimens_25"
                     android:layout_alignParentRight="true"
                     android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:id="@+id/iv_city_spinner"
                     android:src="@drawable/dropdown_icon"/>
 
                 <View
@@ -284,6 +285,7 @@
                     android:layout_height="@dimen/dimens_25"
                     android:layout_alignParentRight="true"
                     android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:id="@+id/iv_area"
                     android:src="@drawable/dropdown_icon"/>
 
                 <View
@@ -392,7 +394,7 @@
                 android:layout_marginTop="@dimen/activity_horizontal_margin">
 
                 <Button
-                    android:id="@+id/save"
+                    android:id="@+id/btn_save"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"

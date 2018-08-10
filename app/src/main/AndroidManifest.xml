@@ -20,11 +20,23 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.base.BaseActivity" />
-        <activity android:name=".ui.login.LoginActivity" />
-        <activity android:name=".ui.login_register.LoginRegisterActivity" />
-        <activity android:name=".ui.register.RegisterActivity"
-            android:theme="@style/RegisterActivityTheme"/>
-        <activity android:name=".ui.addaddress.AddAddressActivity"/>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.login_register.LoginRegisterActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:theme="@style/RegisterActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.addaddress.AddAddressActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.otp.OTPActivity"
+            android:theme="@style/OTPActivityTheme"></activity>
+        <activity android:name=".ui.Youtube.Recipe_Youtube_Activity"></activity>
     </application>
 
 </manifest>
