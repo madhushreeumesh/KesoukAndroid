@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/dimens_10"
+    android:layout_marginRight="@dimen/dimens_10"
+    android:id="@+id/category_items_layout"
+    android:layout_marginTop="@dimen/dimens_5"
+    android:layout_marginBottom="@dimen/dimens_5">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/logo"
+        android:id="@+id/prod_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/dimens_10"
+        android:textSize="@dimen/dimens_13sp"
+        android:text="@string/items"
+        android:layout_toRightOf="@+id/prod_image"
+        android:id="@+id/tv_submenu1"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/expand"
+        android:id="@+id/dropdown"
+        android:layout_marginLeft="@dimen/dimens_190"
+        android:layout_marginRight="@dimen/dimens_10"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/prod_image"
+        android:background="@color/tab_line"
+        android:id="@+id/view"/>
+
+</RelativeLayout>

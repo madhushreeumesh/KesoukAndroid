@@ -60,5 +60,10 @@
     <string name="about">About Us</string>
     <string name="termscond"><![CDATA[Terms & Conditions]]></string>
     <string name="signin">Sign In</string>
+    <string name="search_an_item">Search an Item ...</string>
+    <string name="shop_by_category">SHOP BY CATEGORY</string>
+    <string name="items">Items</string>
+    <string name="no_items_wishlist">No items added in your Wishlist</string>
+    <string name="explore_prod">EXPLORE ALL PRODUCTS</string>
 
 </resources>

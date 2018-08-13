@@ -18,6 +18,8 @@ import android.view.MenuItem
 import android.view.View
 import com.kesouk.android.R
 import com.kesouk.android.ui.base.fragments.*
+import com.kesouk.android.ui.base.fragments.category.Category_Tab_Fragment
+import com.kesouk.android.ui.base.fragments.favorite.Favorites_Fragment
 import com.kesouk.android.ui.login.LoginActivity
 import com.kesouk.android.ui.login_register.LoginRegisterActivity
 import kotlinx.android.synthetic.main.activity_base.*
@@ -33,7 +35,7 @@ class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(logintoolbar)
 
         search_new.visibility = View.VISIBLE
-        toolbar_title.visibility = View.GONE
+        fragment_toolbar_title.visibility = View.GONE
 
 
         val toggle = ActionBarDrawerToggle(

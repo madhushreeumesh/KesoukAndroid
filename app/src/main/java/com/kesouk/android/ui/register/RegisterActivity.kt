@@ -21,9 +21,9 @@ class RegisterActivity : AppCompatActivity(),View.OnClickListener {
       val mToolbar = findViewById(R.id.app_bar) as Toolbar
         (mToolbar.findViewById(R.id.iv_backbtn) as ImageView).visibility = View.GONE
 
-      var mToolbarTitle = findViewById(R.id.toolbar_title) as TextView
-        mToolbarTitle.setText("REGISTER")
-        mToolbarTitle.setVisibility(View.VISIBLE)
+//      var mToolbarTitle = findViewById(R.id.toolbar_title) as TextView
+//        mToolbarTitle.setText("Register")
+//        mToolbarTitle.setVisibility(View.VISIBLE)
     }
 
     override fun onClick(view: View?) {
